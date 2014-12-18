@@ -179,6 +179,7 @@ bar {
   }
 }
 
+for_window [class="^.*"] border pixel 1
 
 exec_always --no-startup-id xscreensaver -no-splash 
 exec_always --no-startup-id blueman-applet
